@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="movies.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    
+
+
+<body>
+ <h1>DISHA'S MOVIE RECCOMENDATION</h1> 
+
+ <a href="movies.html" class="back-home">HOME</a>
+
+    <div id="movies"></div>  
+
+  
+
+    <CENTER>
+      <div class="intro" id="intro">
+
+        <button id="showContentButton">
+          <div class="box1 puff-in-center">
+            <img src="netflix_logo.jpg"  class="img1">
+            <audio src="nouveau-jingle-netflix.mp3"></audio>
+            <h2>hollywood</h2>
+          </div>
+        </button>
+  
+        <button id="bollywoodButton" class="button2">
+          <div class="box1 puff-in-center">
+            <a href="intro.html" target="_blank" >
+            <img src="netflix_logo.jpg"  class="img2"></a>
+            <audio src="nouveau-jingle-netflix.mp3" id="audio"></audio>
+            <h2>bollywood</h2>
+          </div>
+        </button>
+  
+        <div id="contentArea" class="hidden puff-in-center">
+       
+        
+         <div class="parent">
+          <div class="logo1">  <a href="#div1">
+            <img src="clueless1.png" class="logo icon1 shake"></a> </div>
+          <div class="logo2">  <a href="#div2">
+            <img src="hangoverlogo.png" class="logo icon2 shake"></a> </div>
+          <div class="logo3"><a href="#div3">
+            <img src="prettyicon.png" class=" icon3"></a> </div>
+          <div class="logo4"> <a href="#div4">
+            <img src="someone.png" class=" icon3"></a> </div>
+          <div class="logo5"> <a href="#div5">
+            <img src="juliet.png" class=" icon3"></a> </div>
+          <div class="logo6"> <a href="#div6">
+            <img src="mammamia34.png" class=" icon3"></a> </div>
+          <div class="logo7"> <a href="#div7">
+            <img src="valentines.png" class=" icon3 shake"></a> </div>
+          <div class="logo8"><a href="#div8">
+            <img src="easy.png" class=" icon3"></a>  </div>
+          <div class="logo9"> <a href="#div9">
+            <img src="lol.png" class=" icon4"></a> </div>
+          <div class="logo10"><a href="#div10">
+            <img src="breakfast.png" class=" icon3"></a>  </div>
+          <div class="logo11"><a href="#div11">
+            <img src="hill.png" class=" icon3"></a>  </div>
+          <div class="logo12"> <a href="#div12">
+            <img src="devil.jpg" class=" icon3"></a> </div>
+          <div class="logo13"> <a href="#div13">
+            <img src="juno.jpeg" class=" icon3"></a> </div>
+          <div class="logo14"> <a href="#div14">
+            <img src="grownups.png" class=" icon5"></a> </div>
+          <div class="logo15"> <a href="#div15">
+            <img src="music.png" class=" icon3"></a> </div>
+          </div>
+        </div>
+
+     
+
+        
+      </div>
+    </CENTER>
+
+    <span id="showBox">THE CLUELESS GAME</span> 
+    <div id="overlay"></div>
+    <div id="popupBox">
+
+      <div class="slideshow-container slideshow-container1">
+        <img class="slideshow-image"  src="top1.png" alt="Slide 1">
+        <img class="slideshow-image" id="top" src="top2.png" alt="Slide 2">
+        <img class="slideshow-image" id="top" src="top3.png" alt="Slide 3">
+    
+        <a class="prev1 prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+        <a class="next1 next" onclick="plusSlides(1, 1)">&#10095;</a>
+    </div>
+    
+    <div class="slideshow-container slideshow-container2">
+        <img class="slideshow-image" src="bottom1.png" alt="Slide 1">
+        <img class="slideshow-image" src="bottom2.png" alt="Slide 2">
+        <img class="slideshow-image" src="bottom3.png" alt="Slide 3">
+    
+        <a class="prev2 prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+        <a class="next2 next" onclick="plusSlides(1, 2)">&#10095;</a>
+    </div>
+      
+        <button id="closeBox">Close</button>
+    </div>
+
+
+ 
+
+<div id="popup1" class="popup">
+  <div class="popup-content">
+    <span class="close" onclick="closePopup1()">&times;</span>
+   
+    
+  </div>
+</div>
+
+<div id="popup2" class="popup">
+  <div class="popup-content">
+    <span class="close" onclick="closePopup2()">&times;</span>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/JA2z8rHk8k0?si=r7HhyU_oxKsBWH3m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  </div>
+</div>
+
+<script src="movies.js"></script>
+</head>
+</body>
+</html>
